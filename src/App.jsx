@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./sections/Hero";
 import Navbar from "./components/Navbar";
+import About from "./sections/About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <About/>
       </main>
     </>
   );
