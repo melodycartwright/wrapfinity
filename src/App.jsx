@@ -1,7 +1,8 @@
 import React from "react";
-import Hero from "./sections/Hero";
 import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Services from "./sections/Services";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <About/>
+        <About />
+        <Services />
       </main>
     </>
   );
