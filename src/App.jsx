@@ -1,12 +1,15 @@
-import React from 'react';
-import Hero from './sections/Hero'
-
+import React from "react";
+import Hero from "./sections/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
- <main>
-  <Hero/>
- </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 }
 
